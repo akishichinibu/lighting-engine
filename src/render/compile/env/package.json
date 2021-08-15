@@ -1,0 +1,9 @@
+{
+  "name": "lighting-compile-environment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.ts",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

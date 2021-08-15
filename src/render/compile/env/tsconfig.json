@@ -1,0 +1,12 @@
+{
+  "extends": "../../../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+    },
+  },
+  "exclude": [
+    "../../test",
+    "../../node_modules",
+  ]
+}

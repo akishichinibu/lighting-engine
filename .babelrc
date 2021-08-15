@@ -1,0 +1,42 @@
+{
+  "sourceMaps": "both",
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": {
+          "version": 3,
+          "proposals": true
+        }
+      }
+    ],
+    "@babel/typescript",
+  ],
+  "assumptions": {
+    "setPublicClassFields": true,
+    "privateFieldsAsProperties": true,
+  },
+  "plugins": [
+    "babel-plugin-transform-typescript-metadata",
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      },
+    ],
+    [
+      "@babel/proposal-class-properties",
+      {
+        "loose": true
+      },
+    ],
+    [
+      "@babel/plugin-proposal-private-methods",
+      {
+        "loose": true
+      }
+    ],
+    "@babel/proposal-object-rest-spread",
+  ]
+}

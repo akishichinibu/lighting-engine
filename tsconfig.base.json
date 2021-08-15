@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "ES2015",
+      "ES2016",
+      "ES2017",
+      "ES2018",
+      "ES2019",
+      "ES2020",
+      "ES2021",
+      "ESNext"
+    ],
+    "downlevelIteration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@utils/*": ["./src/utils/*"],
+      "@render/*": ["./src/render/*"],
+      "@model/*": ["./src/model/*"],
+      "@events/*": ["./src/events/*"],
+      "@store/*": ["./src/store/*"],
+      "@sandbox/*": ["./src/sandbox/*"],
+      "@src/*": ["./src/*"]  
+    },
+    "types": [
+      "node",
+      "jest"
+    ],
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+}
